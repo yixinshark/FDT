@@ -10,5 +10,10 @@ TARGET = FDT
 
 TEMPLATE = app
 
-include(./Navigation/navigation.pri)
+include(./app/app.pri)
+include(./configfile/configfile.pri)
+include(./datamodel/datamodel.pri)
+include(./protocol/protocol.pri)
+include(./querydata/querydata.pri)
+include(./userinterface/userinterface.pri)
 
